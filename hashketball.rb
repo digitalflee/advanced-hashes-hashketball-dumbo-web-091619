@@ -175,7 +175,9 @@ def player_numbers(team_name)
   jerseys = []
   game_hash.each do |loc, team|
   team.each do |attribute, data|
+    data.each do |player|
     binding.pry 
+      end 
     end
   end 
 end 
