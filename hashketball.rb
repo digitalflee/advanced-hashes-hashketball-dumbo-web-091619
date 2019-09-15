@@ -173,14 +173,10 @@ end
 
 def player_numbers(team_name)
   game_hash.each do |loc, team|
-  team.each do |attribute, data|
-    if attribute == team_name
-      jerseys << attribute[:players][:number]
+ binding.pry 
       end 
     end
-  end 
-  return jerseys 
-end 
+
 
 
 
