@@ -172,8 +172,11 @@ def team_names
 end
 
 def player_numbers(team_name)
+  jerseys = []
   game_hash.each do |loc, team|
- binding.pry 
+    if team_name == team[:team_name]
+    jerseys << team[:number]
+        end
       end 
     end
 
