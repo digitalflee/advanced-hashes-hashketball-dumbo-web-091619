@@ -157,7 +157,7 @@ end
 
 def team_colors(team_name)
   t_colors = []
-  game_hash.each do |loc|
+  game_hash.each do |loc, team|
     binding.pry 
   end 
 end 
