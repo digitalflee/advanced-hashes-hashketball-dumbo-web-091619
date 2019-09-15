@@ -158,8 +158,8 @@ end
 def team_colors(team_name)
   t_colors = []
   game_hash.each do |loc, team|
-  team.each do |colors|
-    binding.pry 
+  if team_name == team[:team]
+    return team[:colors]
     end
   end 
 end 
