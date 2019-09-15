@@ -175,7 +175,7 @@ def player_numbers(team_name)
   jerseys = []
   game_hash.each do |loc, team|
     if team_name == team[:team_name]
-    jerseys << team[:players][:number]
+   jerseys << team.to_s[:players][:number]
         end
       end 
       return jerseys 
