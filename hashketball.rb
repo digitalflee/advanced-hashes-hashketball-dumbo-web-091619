@@ -173,7 +173,7 @@ end
 
 def player_numbers(team_name)
   game_hash.each do |loc, team|
-  binding.pry 
+  return :players[0][:number]
   end 
 end 
 
