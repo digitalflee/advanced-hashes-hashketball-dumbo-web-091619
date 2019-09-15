@@ -176,11 +176,11 @@ def player_numbers(team_name)
   game_hash.each do |loc, team|
   team.each do |attribute, data|
     if attribute == team_name
-      jerseys << team[:number]
+      team[:number]
       end 
     end
   end 
-  return jerseys 
+  return team[:number]
 end 
 
 
