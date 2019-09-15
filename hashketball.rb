@@ -173,7 +173,6 @@ end
 
 def player_numbers(team_name)
   game_hash.each do |loc, team|
-  puts team[:players][:number]
   binding.pry 
   end 
 end 
