@@ -178,6 +178,7 @@ def player_numbers(team_name)
     jerseys << team[:number]
         end
       end 
+      return jerseys 
     end
 
 
