@@ -172,13 +172,11 @@ def team_names
 end
 
 def player_numbers(team_name)
-  jerseys = {}
   game_hash.each do |loc, team|
     if team_name == team[:team_name]
-   jerseys << team[:players][:number]
+   return team[:players][:number]
         end
       end 
-      return jerseys 
     end
 
 
