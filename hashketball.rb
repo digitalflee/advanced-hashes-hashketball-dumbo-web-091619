@@ -172,8 +172,9 @@ def team_names
 end
 
 def player_numbers(team_name)
+  jerseys = []
   game_hash.each do |loc, team|
-  return :players[0][:number]
+  jerseys << team[:players][0][:number]
   end 
 end 
 
