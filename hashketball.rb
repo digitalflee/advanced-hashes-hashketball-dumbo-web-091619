@@ -156,10 +156,9 @@ def shoe_size(player_name)
 end 
 
 def team_colors(team_name)
-  t_colors = []
   game_hash.each do |loc, team|
   if team_name == team[:team]
-    return t_colors << team[:colors]
+    return team[:colors]
     end
   end 
 end 
