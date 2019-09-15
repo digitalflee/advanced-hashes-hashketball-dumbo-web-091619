@@ -155,5 +155,12 @@ def shoe_size(player_name)
   end 
 end 
 
+def team_colors(team_name)
+  t_colors = []
+  game_hash.each do ||
+    binding.pry 
+  end 
+end 
+
 
 
